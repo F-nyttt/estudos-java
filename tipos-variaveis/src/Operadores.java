@@ -2,6 +2,12 @@ public class Operadores {
 
     public static void main(String[] args) {
 
-        System.out.println("operadores");
+        boolean variavel = true;
+
+        variavel = !variavel;
+
+        System.out.println(variavel);
+
+
     }
 }
