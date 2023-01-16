@@ -4,6 +4,14 @@ public class SmartTv {
     int canal = 1;
     int volume = 10;
 
+    public void aumentarVolume(){
+        volume++;
+    }
+
+    public void mudarCanal(){
+        canal++;
+    }
+
     public void ligar(){
          ligada = true;
     }
