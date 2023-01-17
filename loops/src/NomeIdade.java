@@ -6,13 +6,15 @@ public class NomeIdade {
 
     Scanner sc = new Scanner(System.in);
 
-    String nome = sc.next();
-    int idade = sc.nextInt();
+    String nome;
+    int idade;
 
 
-    System.out.println("Nome: " + nome);
+    System.out.println("Nome: ");
+    nome = sc.next();
+    System.out.println("Idade: ");
+    idade= sc.nextInt();
 
-    System.out.println("Idade: " + idade);
 
 
 
