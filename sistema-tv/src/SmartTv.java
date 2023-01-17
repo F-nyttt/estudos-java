@@ -6,10 +6,12 @@ public class SmartTv {
 
     public void aumentarVolume(){
         volume++;
+        System.out.println("Aumentando volume para: " + volume);
     }
 
     public void mudarCanal(){
         canal++;
+        System.out.println("Mudando canal para: " + canal);
     }
 
     public void ligar(){
