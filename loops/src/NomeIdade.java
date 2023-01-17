@@ -9,14 +9,16 @@ public class NomeIdade {
     String nome;
     int idade;
 
+    while (true) {
+        System.out.println("Nome: ");
+        nome = sc.next();
+        if (nome.equals("0")) break;
 
-    System.out.println("Nome: ");
-    nome = sc.next();
-    System.out.println("Idade: ");
-    idade= sc.nextInt();
+        System.out.println("Idade: ");
+        idade = sc.nextInt();
+    }
 
-
-
+        System.out.println("Continua...");
 
     }
 }
