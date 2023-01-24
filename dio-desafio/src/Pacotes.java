@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * Você foi contratado para criar um gerenciador de pacotes.
  * Porém, o que restou para você fazer foi o contador de porcentagem de download dos pacotes.
@@ -18,7 +17,7 @@ public class Pacotes {
             System.out.print("/");
         }
 
-        //  Crie a condição necessária para que, de acordo com o tamanho, seja printado no console barras representando o download
+        //  Crie a condição para que, de acordo com o tamanho, seja printado no console barras representando o download
 
     }
 }
