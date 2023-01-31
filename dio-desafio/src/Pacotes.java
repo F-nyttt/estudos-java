@@ -17,7 +17,7 @@ public class Pacotes {
             System.out.print("/");
         }
 
-        // Crie condição para que, de acordo com o tamanho, seja printado no console barras representando o download
+        // Crie a condição para que, de acordo com o tamanho, seja printado no console barras representando o download
 
     }
 }
