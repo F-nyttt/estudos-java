@@ -17,6 +17,7 @@ public class Pacotes {
         for (int i = 1; i <= tamanho; i++) {
             System.out.print("/");
         }
+        
 
         // Crie a condição para que, de acordo com o tamanho, seja printado no console barras representando o download
 
